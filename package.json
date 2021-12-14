@@ -1,7 +1,6 @@
 {
   "name": "track-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
@@ -11,10 +10,19 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.19.1",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.5",
     "nodemon": "^2.0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockzsuraj/track-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rockzsuraj/track-server/issues"
+  },
+  "homepage": "https://github.com/rockzsuraj/track-server#readme",
+  "description": ""
 }
